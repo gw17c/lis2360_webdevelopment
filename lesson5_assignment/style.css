@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document created by Gal Wolf, March 26, 2019*/
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 1.3em;
+	color: #29414F;
+	background-color: #DBAA90;
+	padding: 0 10px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.05em;
+	color: #29414F;
+}
+h1 {
+	font-size: 38px;
+	padding: 0px;
+	font-variant: normal;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	text-shadow: 3px 3px #7B8082;
+    margin: 10px 0px;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: normal;
+	letter-spacing: 0.1em;
+	background-color: #6291A4;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #6291A4;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #6291A4;
+	text-decoration: none;
+}
+a:hover {
+	color: #EDF7F5;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-type: circle;
+	margin-left: 20px;
+}
+ol {
+	margin-left: 20px;
+}
+
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #6291A4 1px;
+	margin: 40px;
+}
+td {
+	padding: 6px;
+	border: solid #6291A4 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #6291A4;
+	text-align: center;
+	padding: 6px;
+	border: solid #6291A4 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #6291A4 2px;
+}
+
+/*img {
+
+}*/
+
+iframe {
+	border: solid #6291A4 1px;
+	padding: 10px;
+	margin: 20px 40px;
+}
