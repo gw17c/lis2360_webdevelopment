@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document created by Gal Wolf, March 26, 2019*/
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 1.3em;
+	color: #29414F;
+	background-color: #4F4A48;
+	padding: 0;
+	margin: 0;
+}
+
+/* basic text styles ----------------------------  */
+p, td {
+	letter-spacing: 0.05em;
+	color: #29414F;
+	padding: 0 20px;
+}
+li {
+	letter-spacing: 0.05em;
+	color: #29414F;
+}
+h1 {
+	font-size: 38px;
+	padding: 0px 20px;
+	font-variant: normal;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	text-shadow: 3px 3px #7B8082;
+    margin: 10px 0px;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px 20px;
+	font-variant: normal;
+	letter-spacing: 0.1em;
+	background-color: #6291A4;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #6291A4;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #6291A4;
+	text-decoration: none;
+}
+a:hover {
+	color: #EDF7F5;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-type: circle;
+	margin-left: 20px;
+}
+ol {
+	margin-left: 20px;
+}
+
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #6291A4 1px;
+	margin: 40px 20px;
+}
+td {
+	padding: 6px;
+	border: solid #6291A4 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #6291A4;
+	text-align: center;
+	padding: 6px;
+	border: solid #6291A4 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #6291A4 2px;
+}
+
+iframe {
+	border: solid #6291A4 1px;
+	padding: 10px;
+	margin: 20px 20px;
+}
+
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #DBAA90
+}
+
+#header {
+	width: 100%;
+}
+
+#content {
+	width: 690px;
+	float: left;
+	padding-bottom: 30px;
+}
+#content img {
+	margin: 0 40px;
+}
+
+#sidebar {
+	width: 200px;
+	float: left;
+	margin-top: 500px;
+	margin-right: 0px;
+}
+
+#sidebar p{
+	padding: 0px;
+}
+
+#sidebar2 {
+	width: 200px;
+	float: left;
+	margin-top: 1080px;
+	margin-right: 0px;
+}
+
+#sidebar2 p{
+	padding: 0px;
+}
+
+#sidebar3 {
+	width: 200px;
+	float: left;
+	margin-top: 520px;
+	margin-right: 0px;
+}
+
+#sidebar3 p{
+	padding: 0px;
+}
+
+#sidebar4 {
+	width: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+
+#sidebar4 p{
+	padding: 0px;
+}
+
+#sidebar5 {
+	width: 200px;
+	float: left;
+	margin-top: 70px;
+	margin-right: 0px;
+}
+#sidebar5 p{
+	padding: 0px;
+}
+
+#footer {
+	width: 100%;
+	padding: 0 0 15px 0px;
+	clear: both;
+	margin-top: 0;
+}
+
+#footer p, img{
+	margin: 0;
+}
+
+#footer table {
+	border: solid #6291A4 1px;
+	margin: 0px 20px;
+}
