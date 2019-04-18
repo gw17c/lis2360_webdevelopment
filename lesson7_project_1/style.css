@@ -17,10 +17,7 @@ p, td {
 	color: #29414F;
 	padding: 0 20px;
 }
-li {
-	letter-spacing: 0.05em;
-	color: #29414F;
-}
+
 h1 {
 	font-size: 38px;
 	padding: 0px 20px;
@@ -28,7 +25,7 @@ h1 {
 	letter-spacing: 0.1em;
 	line-height: 1em;
 	text-shadow: 3px 3px #7B8082;
-    margin: 10px 0px;
+    margin: 10px 0px 0 0;
 }
 h2 {
 	font-size: 20px;
@@ -39,6 +36,7 @@ h2 {
 }
 
 /* link styles ---------------------------- */
+
 a:link {
 	font-weight: bold;
 	color: #6291A4;
@@ -54,14 +52,9 @@ a:hover {
 }
 
 /* list styles ----------------------------- */
-ul li {
-	list-style-type: circle;
-	margin-left: 20px;
-}
 ol {
 	margin-left: 20px;
 }
-
 
 /* table styles -------------------------------------- */
 table {
@@ -112,6 +105,13 @@ iframe {
 }
 #content img {
 	margin: 0 40px;
+}
+
+#content ul li {
+	list-style-type: circle;
+	margin-left: 20px;
+	letter-spacing: 0.05em;
+	color: #29414F;
 }
 
 #sidebar {
